@@ -1,0 +1,17 @@
+paths:
+  /pet:
+    put:
+      tags:
+        - pet
+      summary: |
+        Update an existing pet
+      parameters:
+        - in: body
+          name: body
+          description: Pet object that needs to be added to the store
+          schema:
+            $ref: '#/definitions/Pet'
+      responses:
+        400:
+          description: Invalid ID supplied
+

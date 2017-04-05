@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+const i = require('..')
+const argparse = require('argparse')
+
+const cli = new argparse.ArgumentParser({
+  prog: 'swagger-include',
+  version: require('../package.json').version,
+  addHelp: true,
+})
+
+cli.addArgument(['file'], {
+  help: 'File to preprocess',
+  nargs: '?',
+  defaultValue: '-',
+})
+
+const options = cli.parseArgs()
+
+console.log(i.readYAML(options.file))

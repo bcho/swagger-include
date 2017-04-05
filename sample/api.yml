@@ -1,0 +1,17 @@
+swagger: "2.0"
+info:
+  version: 1.0.0
+  title: Swagger Petstore
+
+includes:
+  - './pet.yml'
+
+definitions:
+  Category:
+    type: object
+    properties:
+      id:
+        type: integr
+        format: int64
+      name:
+        type: string

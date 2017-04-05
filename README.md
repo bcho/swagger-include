@@ -29,7 +29,7 @@ definitions:
 ```yaml
 includes:
   - './pet/store.yml'
-  - './pet/update.ytml'
+  - './pet/update.yml'
 ```
 
 `pet/store.yml`
