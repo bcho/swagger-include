@@ -9,8 +9,8 @@
   "author": "hbc <me@hbc.rocks>",
   "license": "MIT",
   "dependencies": {
-    "argparse": "file:argparse",
+    "argparse": "^1.0.9",
     "immutable": "^3.8.1",
-    "js-yaml": "file:js-yaml"
+    "js-yaml": "^3.8.3"
   }
 }
