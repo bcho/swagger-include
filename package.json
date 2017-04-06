@@ -8,6 +8,9 @@
   },
   "author": "hbc <me@hbc.rocks>",
   "license": "MIT",
+  "bin": {
+    "swagger-include": "./bin/swagger-include"
+  },
   "dependencies": {
     "argparse": "^1.0.9",
     "immutable": "^3.8.1",
