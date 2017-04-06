@@ -1,6 +1,6 @@
 {
   "name": "swagger-include",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "## Example",
   "main": "lib/index.js",
   "scripts": {
